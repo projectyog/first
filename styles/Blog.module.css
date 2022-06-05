@@ -1,0 +1,28 @@
+.main{
+    min-height: 100vh;
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top:3rem;
+}
+
+.blogsItemh3{
+cursor:pointer;
+}
+.blogsItemp{
+    max-width: 80vh;
+}
+.btn{
+    background-color: black;
+    color:#fafafa;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  .container{
+      margin-top: -15px;
+    background-color: rgb(221, 243, 243); 
+  }
+  

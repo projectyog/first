@@ -1,15 +1,19 @@
 .container {
-  padding: 0 2rem;
+  padding: 10px 2rem;
+  background-color: rgb(221, 243, 243);
+  margin: -15px;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 20px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-top:2rem;
+  
 }
 
 .footer {
@@ -19,6 +23,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: rgb(228, 237, 240);
 }
 
 .footer a {
@@ -33,6 +38,7 @@
   text-decoration: none;
 }
 
+
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -42,7 +48,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  background-color: rgb(223, 234, 245);
 }
 
 .title,
@@ -51,7 +58,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -112,5 +119,45 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+
+.mainnav ul{
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding:20px;
+  background-color: rgb(188, 212, 212);
+}
+
+.mainnav ul li{
+  margin:0 25px;
+  list-style: none;
+  font-weight: bold;
+  
+}
+.myImg{
+   margin-top: 20px;
+  width:300px;
+  height:200px;
+  border-radius:120px;
+}
+
+.imagewrap{
+  padding:15px 0px;
+}
+.btn{
+  background-color: black;
+  color:#fafafa;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:600px) {
+  .mainnav ul li{
+    margin:0 6px;
+    list-style: none;
+    font-weight: bold;
   }
 }
